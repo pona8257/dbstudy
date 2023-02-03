@@ -19,6 +19,6 @@
     2. 모든 쿼리 실행 : F5 (새로 고침 아님 주의!)
 */
 
-DROP USER GDJ61 CASCADE;        -- 세미콜론이 문장 끝
+DROP USER GDJ61 CASCADE;        -- 지우려면 SYS, SYSTEM 계정(관리계정) 으로 들어가 삭제 해야함
 CREATE USER GDJ61 IDENTIFIED BY 1111;
 GRANT DBA TO GDJ61;
