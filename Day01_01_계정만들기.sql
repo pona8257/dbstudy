@@ -22,3 +22,5 @@
 DROP USER GDJ61 CASCADE;        -- 지우려면 SYS, SYSTEM 계정(관리계정) 으로 들어가 삭제 해야함
 CREATE USER GDJ61 IDENTIFIED BY 1111;
 GRANT DBA TO GDJ61;
+
+-- HR은 접속은 HR로만 바꿔주면 된다
